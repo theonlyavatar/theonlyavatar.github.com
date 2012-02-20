@@ -54,46 +54,66 @@ table {
 /* Center Content */
 
 .centered { 
-  margin:0 auto;
+  margin:5px auto;
   width:960px;
 }
 
+
 body {
 	width:960px;
-	margin:100px auto;
+	margin:50px auto;
 }
+
+#header {
+position:relative;
+top:0px;
+left:300px;
+}
+
+#logo {
+position:absolute;
+padding:20px;
+margin-bottom:500px;
+}
+
+#top-menu {
+position:relative;
+top:150px;
+right:40px;
+height:55px;
+}
+
+#top-menu li {
+float:left;
+margin:10px 0px 5px 15px;
+font:25px arial,sans-serif;
+}
+
 
 #main-content {
 position:relative;
-top:20px;
-left:100px;
-}
-
-#first-article {
-position:absolute;
-top:0px;
-left:50px;
-width:400px;
 color:black;
 font:13px arial,sans-serif;
 }
 
-#llama1 {
+#first-article {
+position:absolute;
+top:200px;
+left:200px;
+width:350px;
+color:black;
+font:12px arial,sans-serif;
+}
+
+#dog {
 float:left;
-margin-right:20px;
-margin-bottom:10px;
+margin-bottom:20px;
 }
 
 .main-title {
-font-size: 20px;
+font-size: 25px;
 font-weight: bold; 
-margin:0;
-}
-
-.author {
-color:gray;
-font-size:12px;
-margin-bottom:20px;
+margin-bottom:5px;
 }
 
 p {
@@ -101,22 +121,41 @@ p {
   margin-bottom: 1em;
 }
 
+
 #second-article {
 position:absolute;
-top:px;
-right:50px;
-width:400px;
+top:200px;
+right:0px;
+width:350px;
+color:black;
+font:12px arial,sans-serif;
+}
+
+#cat {
+float:left;
+margin-bottom:20px;
+}
+
+#footer {
+position:relative;
+top:650px;
+left:200px;
 color:black;
 font:13px arial,sans-serif;
+ }
+ 
+ 
+ .content-copyright {
+ position;absolute;
+ top:0px;
+ left:0px;
+ }
+ 
+.martha {
+position:absolute;
+top:0px;
+right:200px;
 }
-
-#llama2 {
-float:left;
-margin-right:20px;
-margin-bottom:10px;
-}
-
-
 
 /* Clearfix */
 .clearfix:after {
@@ -131,10 +170,4 @@ margin-bottom:10px;
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
-
-/* logo replacement */
-
-header#site-header h1 { position:absolute; left:10px; top:10px; }
-header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
-
 
