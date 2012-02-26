@@ -50,3 +50,107 @@ table {
 	border-spacing: 0;
 }
 
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+/*Lilia's CSS*/
+
+body {
+	width:960px;
+	margin:0px auto;
+}
+
+
+#header {
+position:relative;
+top:10px;
+left:80px;
+}
+
+#header img {
+float:left;
+width:40%;
+margin-left:100px;
+}
+
+#top-menu {
+position:absolute;
+top:210px;
+left:-50px;
+}
+
+
+#top-menu li {
+float:left;
+margin:10px 20px;
+font:25px arial,sans-serif;
+}
+
+
+#top-menu a {
+text-decoration:none;
+color:black;
+
+}
+
+article {
+float:left;
+width:40%;
+color:black;
+font:12px arial,sans-serif;
+}
+
+img {
+float:left;
+width:80%;
+margin:100px 200px 10px 0px;
+
+}
+
+h1 {
+font-size: 25px;
+font-weight: bold; 
+margin-bottom:5px;
+}
+
+p {
+width:80%;
+margin-bottom: 3em;
+}
+
+
+
+
+#footer {
+clear:both;
+position:relative;
+bottom:0px;
+color:black;
+font:13px arial,sans-serif;
+ }
+ 
+ 
+ .content-copyright {
+ position;absolute;
+ top:0px;
+ left:0px;
+ }
+ 
+.martha {
+position:absolute;
+top:0px;
+right:-350px;
+}

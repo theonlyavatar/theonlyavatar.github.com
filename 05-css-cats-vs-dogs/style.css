@@ -51,112 +51,6 @@ table {
 }
 
 
-/* Center Content */
-
-.centered { 
-  margin:5px auto;
-  width:960px;
-}
-
-
-body {
-	width:960px;
-	margin:50px auto;
-}
-
-#header {
-position:relative;
-top:0px;
-left:300px;
-}
-
-#logo {
-position:absolute;
-padding:20px;
-margin-bottom:500px;
-}
-
-#top-menu {
-position:relative;
-top:150px;
-right:40px;
-height:55px;
-}
-
-#top-menu li {
-float:left;
-margin:10px 0px 5px 15px;
-font:25px arial,sans-serif;
-}
-
-
-#main-content {
-position:relative;
-color:black;
-font:13px arial,sans-serif;
-}
-
-#first-article {
-position:absolute;
-top:200px;
-left:200px;
-width:350px;
-color:black;
-font:12px arial,sans-serif;
-}
-
-#dog {
-float:left;
-margin-bottom:20px;
-}
-
-.main-title {
-font-size: 25px;
-font-weight: bold; 
-margin-bottom:5px;
-}
-
-p {
-  margin-top: 0em;
-  margin-bottom: 1em;
-}
-
-
-#second-article {
-position:absolute;
-top:200px;
-right:0px;
-width:350px;
-color:black;
-font:12px arial,sans-serif;
-}
-
-#cat {
-float:left;
-margin-bottom:20px;
-}
-
-#footer {
-position:relative;
-top:650px;
-left:200px;
-color:black;
-font:13px arial,sans-serif;
- }
- 
- 
- .content-copyright {
- position;absolute;
- top:0px;
- left:0px;
- }
- 
-.martha {
-position:absolute;
-top:0px;
-right:200px;
-}
-
 /* Clearfix */
 .clearfix:after {
 	content: ".";
@@ -171,3 +65,92 @@ right:200px;
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+/*LILIA'S CSS*/
+
+
+body {
+	width:960px;
+	margin:0px auto;
+}
+
+
+#header {
+position:relative;
+top:50px;
+left:100px;
+}
+
+#header img {
+top:0px;
+left:200px;
+width:40%;
+}
+
+#top-menu {
+position:absolute;
+top:190px;
+left:-50px;
+}
+
+
+#top-menu li {
+float:left;
+margin:10px 20px;
+
+}
+
+
+#top-menu ul li a {
+text-decoration:none;
+color:black;
+font:25px arial,sans-serif;
+}
+
+article {
+float:left;
+width:40%;
+color:black;
+font:12px arial,sans-serif;
+}
+
+img {
+float:left;
+width:80%;
+margin:100px 200px 10px 0px;
+
+}
+
+h1 {
+font-size: 25px;
+font-weight: bold; 
+margin-bottom:5px;
+}
+
+p {
+width:80%;
+margin-bottom: 3em;
+}
+
+
+
+
+#footer {
+clear:both;
+position:relative;
+bottom:0px;
+color:black;
+font:13px arial,sans-serif;
+ }
+ 
+ 
+ .content-copyright {
+ position;absolute;
+ top:0px;
+ left:0px;
+ }
+ 
+.martha {
+position:absolute;
+top:0px;
+right:-350px;
+}
