@@ -53,16 +53,19 @@ table {
 /* Lilia's CSS*/
 
 body {
-	width:960px;
+	width:100%;
 	margin:0px auto;
-}
+	}
 
 #site-wrapper {
-position:relative;
-top:0px;
-left:0px;
+width:100%;
+margin:0px auto;
 background-color:#F0F5de; 
-background-repeat:repeat;
+}
+
+#site-header {
+position:relative;
+width:100%;
 }
 
 #site-header h1 a {
@@ -71,12 +74,13 @@ background-repeat:repeat;
  height:120px;  
  background:url(images/logo.png) no-repeat top left; 
  text-indent:-9999px;
+ margin-left:200px;
  }
  
  #top-nav {
  position:absolute;
  top:10px;
- right:0px;
+ right:150px;
  }
  
   #top-nav a {
@@ -89,24 +93,21 @@ background-repeat:repeat;
  /* END SITE WRAPPER*/
  
  #menu-wrapper {
- position:relative;
- top:0px;
- left:0px;
- margin-bottom:50px;
+width:100%;
+margin:0px auto;
+background-color:#744918;
  }
 
  
  #main-menu {
- position:absolute;
- top:0px;
- left:0px;
- background-color:#744918;
- background-repeat:repeat;
- width:100%;
- padding:8px;
+position:relative;
+height:20px;
+width:100%;
+margin-left:200px;
+padding:10px 0px 10px 0px;
  }
  
-  #main-menu ul li a{
+  #main-menu li a{
  float:left;
  text-decoration:none;
  color:white;
@@ -116,30 +117,32 @@ background-repeat:repeat;
  text-transform:uppercase;
  }
  
+
   /* END MENU WRAPPER*/
  
 #content-wrapper {
-position:relative;
-top:0px;
-left:0px;
+width:100%;
+margin:0px auto;
  }
  
  #content {
  position:absolute;
- top:0px;
+ top:180px;
  left:0px;
+ width:100%;
  }
  
  #page {
  float:left;
- width:60%;
- margin-right:30px;
+ width:40%;
+ margin-right:10px;
+ margin-left:200px;
   }
   
  #page h1 {
  color: #744918;
- font-size:2em;
- font-family:arial;
+ font-size:3em;
+ font-family:Lobster, cursive;
  margin-bottom:10px;
   }
   
@@ -193,27 +196,35 @@ margin-top:10px;
 /*END CONTENT WRAPPER */
 
 
-#site-footer {
-position: fixed;
-bottom: 0px;
-margin-right: auto;
-margin-left: auto;
-background-color:#744918;
 
+#footer-wrapper {
+clear:both;
+position:relative;
+background-color:#744918;
+width:100%;
+height:200px;
+top:600px;
+}
+
+#site-footer {
+position:absolute;
+width:100%;
+margin-left:200px;
 }
 
 #footer-contact {
 float:left;
 width:20%;
-padding:20px;
+padding:20px 0px 20px 0px;
+margin-right:300px;
 }
 
 #footer-contact h1{
 color:#F0F5de;
- font-size:1em;
- font-family:arial;
- text-transform:uppercase;
- margin-bottom:4px;
+font-size:1em;
+font-family:arial;
+text-transform:uppercase;
+margin-bottom:4px;
 }
 
 #footer-contact p{
