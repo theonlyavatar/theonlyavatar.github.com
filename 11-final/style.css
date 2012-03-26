@@ -68,10 +68,87 @@ html[xmlns] .clearfix { display: block; }
 
 /*Lilia's CSS*/
 
+
+/* @license
+ * MyFonts Webfont Build ID 2172392, 2012-03-25T20:57:44-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Museo 700 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/700/
+ * Licensed pageviews: unlimited
+ * 
+ * Webfont: Museo 500 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/500/
+ * Licensed pageviews: unspecified
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2172392
+ * Webfonts copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+
+@font-face {
+	font-family:Museo-700;
+	src: url('fonts/2125E8_0_0.ttf');
+	}
+	
+	@font-face {
+	font-family:Museo-500;
+	src: url('fonts/2125E8_1_0.ttf');
+	}
+
+@font-face {
+font-family: 'Museo-700';
+src: url('webfonts/2125E8_0_0.eot');
+src: url('webfonts/2125E8_0_0.eot?#iefix') format('embedded-opentype'),
+url('webfonts/2125E8_0_0.woff') format('woff'),
+url('webfonts/2125E8_0_0.ttf') format('truetype');
+}
+ 
+  
+ @font-face {font-family: 'Museo-500';
+ src: url('webfonts/2125E8_1_0.eot');
+ src: url('webfonts/2125E8_1_0.eot?#iefix') format('embedded-opentype'),
+ url('webfonts/2125E8_1_0.woff') format('woff'),
+ url('webfonts/2125E8_1_0.ttf') format('truetype');
+ }
+ 
+
 body {
 	width:100%;
 	margin:0% auto;
 	max-width:1024px;
+	background:url(images/background.png);
+}
+
+header {
+position:relative;
+top:1%;
+left:4%;
+}
+
+header h1 {
+font-family: Museo-700, Georgia, serif;
+font-size:20em;
+color:white;
+margin-top:5%;
+margin-left:25%
 }
 
 
+#top-menu {
+
+#article {
+
+#content-wrapper {
+width:100%;
+margin:0px auto;
+background-color:white;
+ }
