@@ -117,7 +117,8 @@ background:url(images/arches.png);
 }
 
 #site-wrapper {
-width:960px;
+max-width:960px; 
+width:100%;
 margin:0 auto;
 }
 
@@ -132,30 +133,31 @@ height:700px;
 position:absolute;
 display:block;
 font-family: Museo-700, Georgia, serif;
-font-size:365px;
+font-size:23em;
 color:white;
-padding: 350px 0px 0px 0px;
-text-shadow: 8px 8px 0 rgba(0,255,255,0.5);
+padding: 35% 0% 0% 0%;
+text-shadow: 8px 8px 0 rgba(0,255,255,1);
+margin-left:-1%;
 }
 
 #site-header p {
 position:absolute;
 display:block;
 font-family: Museo-500;
-font-size:20px;
-line-height:25px;
+font-size:1.5em;
+line-height:1em;
 color:white;
-width:200px;
-margin-top:180px;
-margin-left:550px;
-padding:50px 0px 0px 0px;
+width:25%;
+margin-top:20%;
+margin-left:54%;
+padding:10% 0% 0% 0%;
 }
 
 .Circle {
 position:absolute;
-left:0px;
-top:130px;
-margin-left:500px;
+left:0%;
+top:18%;
+margin-left:50%;
 
     -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
@@ -169,15 +171,15 @@ margin-left:500px;
 
 #top-menu {
 position:fixed;
-top:0px;
-width:150px;
+top:0%;
+width:180px;
 background-color:#E3DC05;
 padding:5px 0px 10px 0px;
 }
 
 #top-menu li {
 float:left;
-margin-left:5px;
+margin-left:1%;
 }
 
 
@@ -186,8 +188,8 @@ display:block;
 text-decoration:none;
 color:white;
 font-family:Museo-500;
-font-size:12px; 
-padding: 10px 5px 0px 5px;
+font-size:0.8em; 
+padding: 10px 5px 0px 10px;
 }
 
 #top-menu li a:hover {
@@ -195,51 +197,54 @@ color:#00BCE4;
 }
 
 #content-wrapper {
-width:960px;
-margin:0px auto;
+max-width:960px;
+width:100%;
+margin:0% auto;
 background-color:white;
  }
  
 
 #content-wrapper h2 {
 font-family: Museo-700;
-font-size:22px;
+font-size:1.5em;
 color:#00BCE4;
-margin-left:60px;
+margin-left:8%;
 }
 
 #content-wrapper h3 {
 font-family: Museo-500;
-font-size:16px;
+font-size:1em;
 color:#9A8B7D;
-line-height:30px;
-margin-left:60px;
+line-height:1.5em;
+margin-left:8%;
 }
 
 #content-wrapper p {
 font-family: Museo-500;
-font-size:13px;
+font-size:0.8em;
 color:#9A8B7D;
-line-height:20px;
-margin-left:60px;
+line-height:1.5em;
+margin-left:8%;
 border-bottom-style:solid;
-border-width:2px;
+border-width:2.5px;
 border-color:#E3DC05;
 }
 
 #content-wrapper p span {
 font-family: Museo-500;
-font-size:13px;
+font-size:1em;
 color:#00BCE4;
-line-height:20px;
+line-height:1.5em;
 }
 
 #content-wrapper img {
-margin-left:40px;
+margin-left:5%;
+margin-bottom:2%;
+max-width:100%;
 }
 
 #my_video_1 {
-margin:50px 0px 50px 60px;
+margin:8% 0% 7% 9%;
 }
 
 #content {
@@ -291,18 +296,18 @@ padding:100px 0px 0px 0px;
 
 #thankyou h2 {
 display:block;
-width:380px;
-margin-left:480px;
+width:40%;
+margin-left:50%;
 font-family: Museo-500;
-font-size:20px;
+font-size:1.25em;
 color:#00BCE4;
-padding:0px 0px 100px 0px;
+padding:0% 0% 10% 0%;
 }
 
 .resume a{
 font-family: Museo-500;
-font-size:20px;
-line-height:20px;
+font-size:1em;
+line-height:1em;
 color:#E3DC05;
 text-decoration:none;
  }
@@ -314,18 +319,19 @@ color:#00BCE4;
 #contact-info {
 position:absolute;
 background-color:#E3DC05;
-width:960px;
-height:50px;
-padding: 20px 0px 0px 0px;
+max-width:960px;
+width:100%;
+height:5%;
+padding: 2% 0% 0% 0%;
 font-family: Museo-500;
-font-size:13px;
+font-size:1em;
 color:white;
 }
 
 .email  a {
-margin-left:480px;
+margin-left:50%;
 font-family: Museo-500;
-font-size:13px;
+font-size:1em;
 color:white;
 text-decoration:none;
 }
@@ -341,6 +347,233 @@ position:fixed;
 footer {
 float:left;
 font-family: Museo-500;
-font-size:10px;
+font-size:0.5em;
 color:white;
+}
+
+/*responsive*/
+
+
+@media screen and (max-width:480px) {
+
+#site-header {
+background-color:#E3DC05;
+position:relative;
+height:300px;
+}
+
+
+#site-header h1 {
+position:absolute;
+display:block;
+font-family: Museo-700, Georgia, serif;
+font-size:9em;
+color:white;
+padding: 40% 0% 0% 0%;
+text-shadow: 8px 8px 0 rgba(0,255,255,0.5);
+}
+
+#site-header p {
+position:absolute;
+display:block;
+font-family: Museo-500;
+font-size:1em;
+line-height:1em;
+color:white;
+width:40%;
+margin-top:18%;
+margin-left:45%;
+padding:10% 0% 0% 0%;
+}
+
+.Circle {
+position:absolute;
+left:0%;
+top:10%;
+margin-left:41%;
+
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc);
+
+    width:180px;
+    height:180px;
+    background: #00BCE4;
+ }
+
+#top-menu {
+position:fixed;
+top:0%;
+width:180px;
+background-color:#E3DC05;
+padding:5px 0px 10px 0px;
+}
+
+#top-menu li {
+float:left;
+margin-left:1%;
+}
+
+
+#top-menu li a{
+display:block;
+text-decoration:none;
+color:white;
+font-family:Museo-500;
+font-size:0.8em; 
+padding: 10px 5px 0px 9px;
+}
+
+#top-menu li a:hover {
+color:#00BCE4;
+}
+
+
+#content-wrapper h2 {
+font-family: Museo-700;
+font-size:1.2em;
+color:#00BCE4;
+margin-left:9%;
+}
+
+#content-wrapper h3 {
+font-family: Museo-500;
+font-size:0.8em;
+color:#9A8B7D;
+line-height:1.5em;
+margin-left:9%;
+}
+
+#content-wrapper p {
+font-family: Museo-500;
+font-size:0.8em;
+color:#9A8B7D;
+line-height:1.5em;
+margin-left:9%;
+border-bottom-style:solid;
+border-width:2.5px;
+border-color:#E3DC05;
+}
+
+#content-wrapper p span {
+font-family: Museo-500;
+font-size:1em;
+color:#00BCE4;
+line-height:1.5em;
+}
+
+#content-wrapper img {
+margin-left:-1%;
+margin-bottom:2%;
+max-width:100%;
+}
+
+#my_video_1 {
+margin:8% 0% 7% 9%;
+}
+
+#content {
+background-color:white;
+}
+
+.numberCircle {
+	position:absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    behavior: url(PIE.htc);
+
+    width: 20px;
+    height: 20px;
+    padding: 0.8%;
+    background: #E3DC05;
+    
+    font-family: Museo-700;
+    font-size:1em;
+    line-height:1.4em;
+    color:white;
+    text-align:center;
+    margin-left:1%;
+}​
+
+
+
+#thankyou {
+position:absolute;
+}
+
+
+#thankyou h1 {
+font-family: Museo-700;
+font-size:100px;
+color:#E3DC05;
+margin-left:20px;
+padding:80px 0px 0px 0px;
+}
+
+#thankyou h1 span{
+font-family: Museo-700;
+font-size:50px;
+color:#E3DC05;
+margin-left:1px;
+padding:60px 0px 0px 0px;
+}
+
+#thankyou h2 {
+display:block;
+width:60%;
+margin-left:48%;
+font-family: Museo-500;
+font-size:1em;
+color:#00BCE4;
+padding:0% 0% 10% 0%;
+}
+
+.resume a{
+font-family: Museo-500;
+font-size:1em;
+line-height:1em;
+color:#E3DC05;
+text-decoration:none;
+ }
+
+.resume a:hover {
+color:#00BCE4;
+}
+
+#contact-info {
+position:absolute;
+background-color:#E3DC05;
+max-width:960px;
+width:100%;
+height:5%;
+padding: 2% 0% 0% 0%;
+font-family: Museo-500;
+font-size:0.8em;
+color:white;
+}
+
+.email  a {
+margin-left:6%;
+font-family: Museo-500;
+font-size:1em;
+color:white;
+text-decoration:none;
+}
+
+.email a:hover {
+color:#00BCE4;
+}
+
+#footer-wrapper {
+position:fixed;
+}
+
+footer {
+float:left;
+font-family: Museo-500;
+font-size:0.5em;
+color:white;
+}
 }
