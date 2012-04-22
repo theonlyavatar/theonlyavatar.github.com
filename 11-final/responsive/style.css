@@ -170,12 +170,7 @@ margin: 15% 0% 0% 50%;
     margin:100px 0px 0px 35px;
     width:250px;
     }
-<<<<<<< HEAD
 
-=======
-    
-    
->>>>>>> final final
 #top-menu {
 position:fixed;
 top:0%;
@@ -352,12 +347,10 @@ color:#00BCE4;
 .footer {
 display:block;
 width:200px;
-<<<<<<< HEAD
 font-family: Museo-500;
 font-size:0.5em;
 color:white;
 margin:25px 0px 0px 480px;
-=======
 font-family: Museo-500;
 font-size:0.5em;
 color:white;
@@ -596,19 +589,15 @@ font-family: Museo-500;
 font-size:0.5em;
 color:white;
 margin:25px 0px 0px 40px;
->>>>>>> final final
 }
 
 #footer-wrapper {
 position:fixed;
 }
-<<<<<<< HEAD
+
 
 
 /*responsive*/
-=======
-}
->>>>>>> final final
 
 
 @media screen and (max-width:480px) {
@@ -809,11 +798,8 @@ color:#00BCE4;
 position:absolute;
 max-width:960px;
 width:100%;
-<<<<<<< HEAD
 height:8%;
-=======
 height:5%;
->>>>>>> final final
 padding: 3% 0% 0% 0%;
 font-family: Museo-500;
 font-size:0.8em;
@@ -836,7 +822,6 @@ color:#00BCE4;
 .footer {
 display:block;
 width:200px;
-<<<<<<< HEAD
 font-family: Museo-500;
 font-size:0.5em;
 color:white;
@@ -1070,12 +1055,10 @@ font-family: Museo-500;
 font-size:0.5em;
 color:white;
 margin:25px 0px 0px 480px;
-=======
 font-family: Museo-500;
 font-size:0.5em;
 color:white;
 margin:25px 0px 0px 25px;
->>>>>>> final final
 }
 
 #footer-wrapper {
