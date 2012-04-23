@@ -363,6 +363,237 @@ position:fixed;
 
 
 /*responsive*/
+@media screen and (max-width:768px) {
+#site-header {
+background-color:#E3DC05;
+position:relative;
+height:500px;
+}
+
+
+#site-header h1 {
+position:absolute;
+display:block;
+font-family: Museo-700, Georgia, serif;
+font-size:16.3em;
+color:white;
+padding: 200px 0px 0px 0px;
+text-shadow: 8px 8px 0 rgba(0,255,255,0.5);
+}
+
+#site-header p {
+position:absolute;
+display:block;
+font-family: Museo-500;
+font-size:1em;
+line-height:1em;
+color:white;
+width:40%;
+margin-top:18%;
+margin-left:45%;
+padding:10% 0% 0% 0%;
+}
+
+.Circle {
+position:absolute;
+margin: 10% 0% 0% 50%;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc);
+
+    width:200px;
+    height: 200px;
+    background: #00BCE4;
+    }
+    
+.circle-text {     
+    font-family: Museo-500;
+    font-size:1.1em;
+    line-height:1.1em;
+    color:white;
+    margin:60px 0px 0px 30px;
+    width:140px;
+    }
+
+#top-menu {
+position:fixed;
+top:0%;
+width:180px;
+background-color:#E3DC05;
+padding:5px 0px 10px 0px;
+}
+
+#top-menu li {
+float:left;
+margin-left:1%;
+}
+
+
+#top-menu li a{
+display:block;
+text-decoration:none;
+color:white;
+font-family:Museo-500;
+font-size:0.8em; 
+padding: 10px 5px 0px 9px;
+}
+
+#top-menu li a:hover {
+color:#00BCE4;
+}
+
+
+#content-wrapper h2 {
+font-family: Museo-700;
+font-size:1.2em;
+color:#00BCE4;
+margin-left:9%;
+}
+
+#content-wrapper h3 {
+font-family: Museo-500;
+font-size:0.8em;
+color:#9A8B7D;
+line-height:1.5em;
+margin-left:9%;
+}
+
+#content-wrapper p {
+font-family: Museo-500;
+font-size:0.8em;
+color:#9A8B7D;
+line-height:1.5em;
+margin-left:9%;
+border-bottom-style:solid;
+border-width:2.5px;
+border-color:#E3DC05;
+}
+
+#content-wrapper p span {
+font-family: Museo-500;
+font-size:1em;
+color:#00BCE4;
+line-height:1.5em;
+}
+
+#content-wrapper img {
+margin-left:-1%;
+margin-bottom:2%;
+max-width:100%;
+}
+
+#my_video_1 {
+margin:6% 0% 7% 5%;
+}
+
+#content {
+background-color:white;
+}
+
+.numberCircle {
+	position:absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    behavior: url(PIE.htc);
+
+    width: 35px;
+    height: 35px;
+    padding: 1%;
+    background: #E3DC05;
+    
+    font-family: Museo-700;
+    font-size:1.5em;
+    line-height:1.5em;
+    color:white;
+    text-align:center;
+    margin-left:1%;
+}​
+
+
+
+#thankyou {
+position:absolute;
+}
+
+
+#thankyou h1 {
+font-family: Museo-700;
+font-size:170px;
+color:#E3DC05;
+margin-left:50px;
+padding:80px 0px 0px 0px;
+}
+
+#thankyou h1 span{
+font-family: Museo-700;
+font-size:80px;
+color:#E3DC05;
+margin-left:1px;
+padding:60px 0px 0px 0px;
+}
+
+#thankyou h2 {
+display:block;
+width:45%;
+margin-left:48%;
+font-family: Museo-500;
+font-size:1.1em;
+color:#00BCE4;
+padding:0% 0% 10% 0%;
+}
+
+.resume a{
+font-family: Museo-500;
+font-size:1em;
+line-height:1em;
+color:#E3DC05;
+text-decoration:none;
+ }
+
+.resume a:hover {
+color:#00BCE4;
+}
+
+#contact-info {
+position:absolute;
+background-color:#E3DC05;
+max-width:960px;
+width:100%;
+height:7%;
+padding: 3% 0% 0% 0%;
+font-family: Museo-500;
+font-size:0.8em;
+color:white;
+line-height:0.1em;
+}
+
+.email  a {
+margin-left:6%;
+font-family: Museo-500;
+font-size:1em;
+color:white;
+text-decoration:none;
+}
+
+.email a:hover {
+color:#00BCE4;
+}
+
+.footer {
+display:block;
+width:200px;
+font-family: Museo-500;
+font-size:0.5em;
+color:white;
+margin:25px 0px 0px 40px;
+}
+
+#footer-wrapper {
+position:fixed;
+}
+}
 
 
 @media screen and (max-width:480px) {
